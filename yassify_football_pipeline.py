@@ -8,20 +8,15 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.metrics import classification_report, mean_squared_error
-from datetime import datetime
-
 import joblib
+
 import tensorflow as tf
-from tensorflow.keras import Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout
-from tensorflow.keras.callbacks import (
-    EarlyStopping,
-    ModelCheckpoint,
-    ReduceLROnPlateau,
-    TensorBoard,
-)
+from keras.models      import Sequential
+from keras.layers      import LSTM, Dense, Dropout
+from keras.callbacks   import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, TensorBoard
 
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 
 def set_random_seeds(seed: int = 42) -> None:
@@ -193,9 +188,6 @@ def get_recursive_forecast(
     feature_names: list[str],
     steps: int = 2
 ):
-    """
-    Returns (labels, numeric_scores, predicted_goals) for the next `steps` matches.
-    """
     seq = last_window.copy()
     F = seq.shape[-1]
     labels, scores, goals = [], [], []
@@ -243,13 +235,13 @@ def train_and_evaluate(
     yrt, yrv = splits['y_res_train'], splits['y_res_val']
     ygt, ygv = splits['y_goals_train'], splits['y_goals_val']
 
-    model_clf.fit(
+    history_clf = model_clf.fit(
         Xtr, yrt,
         validation_data=(Xv, yrv),
         epochs=epochs, batch_size=batch_size,
         callbacks=[ck1, es, rp, tb]
     )
-    model_reg.fit(
+    history_reg = model_reg.fit(
         Xtr, ygt,
         validation_data=(Xv, ygv),
         epochs=epochs, batch_size=batch_size,
@@ -282,6 +274,8 @@ def train_and_evaluate(
         feature_names, steps=2
     )
 
+    return history_clf, history_reg, p_idx, p_goals
+
 
 def main():
     p = argparse.ArgumentParser()
@@ -302,24 +296,18 @@ def main():
     )
     set_random_seeds(42)
 
+    # 1) Load & preprocess
     df = load_match_data(args.file, rolling_window=args.timesteps)
     encoder = encode_labels(df)
-
     X, y_res, y_goals = create_sequences(df, timesteps=args.timesteps)
-    splits = split_data(
-        X, y_res, y_goals,
-        holdout=args.holdout,
-        val_frac=args.test_size
-    )
+    splits = split_data(X, y_res, y_goals,
+                        holdout=args.holdout,
+                        val_frac=args.test_size)
     Xtr_s, Xv_s, Xh_s, scaler = scale_data(
-        splits['X_train'], splits['X_val'], splits['X_hold']
-    )
-    splits.update(
-        X_train_s=Xtr_s,
-        X_val_s=Xv_s,
-        X_hold_s=Xh_s
-    )
+        splits['X_train'], splits['X_val'], splits['X_hold'])
+    splits.update(X_train_s=Xtr_s, X_val_s=Xv_s, X_hold_s=Xh_s)
 
+    # 2) Build & train
     global feature_names
     feature_names = [
         'home',
@@ -327,34 +315,53 @@ def main():
         'roll_possession','roll_pass_accuracy','roll_corner_kicks',
         'roll_result_score','roll_barca_goals'
     ]
-
     T, F = Xtr_s.shape[1], Xtr_s.shape[2]
     clf, reg = build_models(T, F, len(encoder.classes_))
-
-    # Train, evaluate, and print hold-out + recursive forecast
-    train_and_evaluate(
+    history_clf, history_reg, hold_idx, hold_goals = train_and_evaluate(
         clf, reg, splits,
         encoder, scaler,
         args.output_dir,
         args.epochs, args.batch_size
     )
 
-    # --- Now get the same 2-step forecast and plot it ---
-    last_window = splits['X_hold_s'][0]
+    # 3) Recursive forecast for plotting
     labels, scores, goals = get_recursive_forecast(
-        clf, reg, last_window,
-        scaler, encoder, feature_names,
-        steps=2
-    )
+        clf, reg,
+        splits['X_hold_s'][0], scaler, encoder,
+        feature_names, steps=2)
 
-    matches = [f"Match {i+1}" for i in range(len(scores))]
-    plt.figure()
-    plt.bar(matches, scores)
-    plt.ylim(0, 1.1)
-    plt.ylabel("Result Score (1=Win, 0.5=Draw, 0=Loss)")
-    plt.title("Model’s Predicted Result Scores for Next 2 Matches")
-    for i, lbl in enumerate(labels):
-        plt.text(i, scores[i] + 0.02, lbl, ha='center')
+    # 4) Grab actual last 4 results and opponents
+    raw = json.loads(args.file.read_text())
+    result_map = {'Win':1.0,'Draw':0.5,'Loss':0.0}
+    actual_scores = [result_map[m['result']] for m in raw]
+    last4_scores = actual_scores[-4:]
+    opponents = [m['opponent'] for m in raw[-4:]]
+    last4_labels = [f"vs {opp}" for opp in opponents]
+
+    # 5) Final bar chart with borders, annotations, and opponent labels
+    x_labels = last4_labels + ['Next 1', 'Next 2']
+    all_scores = last4_scores + scores
+    colors = ['gray']*4 + ['steelblue']*2
+
+    plt.figure(figsize=(8,5))
+    bars = plt.bar(
+        x_labels,
+        all_scores,
+        color=colors,
+        edgecolor='black'              
+    )
+    plt.ylim(0,1.1)
+    plt.ylabel('Result Score (1=Win, 0.5=Draw, 0=Loss)')
+    plt.title("Actual Last 4 Matches vs. Model’s Next 2 Predictions")
+
+    # annotate every bar with its numeric value
+    for i, h in enumerate(all_scores):
+        plt.text(i, h + 0.02, f"{h:.1f}", ha='center')
+
+    actual_patch = mpatches.Patch(color='gray', label='Actual Results')
+    pred_patch   = mpatches.Patch(color='steelblue', label='Predicted Results')
+    plt.legend(handles=[actual_patch, pred_patch])
+
     plt.show()
 
 
