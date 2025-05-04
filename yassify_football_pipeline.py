@@ -3,6 +3,7 @@ import json
 import random
 import logging
 from pathlib import Path
+import textwrap
 
 import numpy as np
 import pandas as pd
@@ -330,31 +331,36 @@ def main():
         splits['X_hold_s'][0], scaler, encoder,
         feature_names, steps=2)
 
-    # 4) Grab actual last 4 results and opponents
+    # 4) Grab actual FIRST 4 results and opponents
     raw = json.loads(args.file.read_text())
     result_map = {'Win':1.0,'Draw':0.5,'Loss':0.0}
     actual_scores = [result_map[m['result']] for m in raw]
-    last4_scores = actual_scores[-4:]
-    opponents = [m['opponent'] for m in raw[-4:]]
-    last4_labels = [f"vs {opp}" for opp in opponents]
+    first4_scores = actual_scores[:4]
+    opponents = [m['opponent'] for m in raw[:4]]
+    first4_labels = [f"vs {opp}" for opp in opponents]
 
-    # 5) Final bar chart with borders, annotations, and opponent labels
-    x_labels = last4_labels + ['Next 1', 'Next 2']
-    all_scores = last4_scores + scores
+    # 5) Final bar chart with wrapped labels and tight layout
+    x_labels = first4_labels + ['Next 1', 'Next 2']
+    all_scores = first4_scores + scores
     colors = ['gray']*4 + ['steelblue']*2
 
-    plt.figure(figsize=(8,5))
-    bars = plt.bar(
-        x_labels,
+    wrapped_labels = [
+        "\n".join(textwrap.wrap(lbl, width=12))
+        for lbl in x_labels
+    ]
+
+    plt.figure(figsize=(10, 6))
+    plt.bar(
+        wrapped_labels,
         all_scores,
         color=colors,
-        edgecolor='black'              
+        edgecolor='black'
     )
-    plt.ylim(0,1.1)
+    plt.ylim(0, 1.1)
     plt.ylabel('Result Score (1=Win, 0.5=Draw, 0=Loss)')
-    plt.title("Actual Last 4 Matches vs. Model’s Next 2 Predictions")
+    plt.title("Actual First 4 Matches vs. Model’s Next 2 Predictions")
+    plt.xticks(rotation=45, ha='right')
 
-    # annotate every bar with its numeric value
     for i, h in enumerate(all_scores):
         plt.text(i, h + 0.02, f"{h:.1f}", ha='center')
 
@@ -362,6 +368,7 @@ def main():
     pred_patch   = mpatches.Patch(color='steelblue', label='Predicted Results')
     plt.legend(handles=[actual_patch, pred_patch])
 
+    plt.tight_layout()
     plt.show()
 
 
