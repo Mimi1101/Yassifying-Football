@@ -249,13 +249,21 @@ def train_and_evaluate(
         callbacks=[ck2, es, rp, tb]
     )
 
+    # Convert histories to Python-native types
+    hist_clf = {k: [float(v) for v in vals] for k, vals in history_clf.history.items()}
+    hist_reg = {k: [float(v) for v in vals] for k, vals in history_reg.history.items()}
+
+    with open(output_dir / 'history_clf.json', 'w') as f:
+        json.dump(hist_clf, f)
+    with open(output_dir / 'history_reg.json', 'w') as f:
+        json.dump(hist_reg, f)
+
     joblib.dump(scaler, output_dir/'scaler.joblib')
     joblib.dump(encoder, output_dir/'encoder.joblib')
 
     # Hold-out evaluation
     p_probs = model_clf.predict(splits['X_hold_s'])
     p_idx   = np.argmax(p_probs, axis=1)
-    p_lbl   = encoder.inverse_transform(p_idx)
     p_goals = model_reg.predict(splits['X_hold_s']).flatten()
 
     print("\n=== Holdout Classification Report ===")
@@ -276,6 +284,37 @@ def train_and_evaluate(
     )
 
     return history_clf, history_reg, p_idx, p_goals
+
+
+def plot_training_curves(output_dir: Path):
+    # Load histories
+    with open(output_dir / 'history_clf.json') as f:
+        hist_clf = json.load(f)
+    with open(output_dir / 'history_reg.json') as f:
+        hist_reg = json.load(f)
+
+    plt.figure(figsize=(12, 5))
+
+    # Classification loss
+    plt.subplot(1, 2, 1)
+    plt.plot(hist_clf['loss'], label='Train Loss')
+    plt.plot(hist_clf['val_loss'], label='Val Loss')
+    plt.title('Classification Model Loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    # Regression loss
+    plt.subplot(1, 2, 2)
+    plt.plot(hist_reg['loss'], label='Train Loss')
+    plt.plot(hist_reg['val_loss'], label='Val Loss')
+    plt.title('Regression Model Loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    plt.tight_layout()
+    plt.show()
 
 
 def main():
@@ -325,13 +364,15 @@ def main():
         args.epochs, args.batch_size
     )
 
-    # 3) Recursive forecast for plotting
+    # 3) Plot training/validation loss curves
+    plot_training_curves(args.output_dir)
+
+    # 4) Recursive forecast & final bar chart...
     labels, scores, goals = get_recursive_forecast(
         clf, reg,
         splits['X_hold_s'][0], scaler, encoder,
         feature_names, steps=2)
 
-    # 4) Grab actual FIRST 4 results and opponents
     raw = json.loads(args.file.read_text())
     result_map = {'Win':1.0,'Draw':0.5,'Loss':0.0}
     actual_scores = [result_map[m['result']] for m in raw]
@@ -339,35 +380,22 @@ def main():
     opponents = [m['opponent'] for m in raw[:4]]
     first4_labels = [f"vs {opp}" for opp in opponents]
 
-    # 5) Final bar chart with wrapped labels and tight layout
     x_labels = first4_labels + ['Next 1', 'Next 2']
     all_scores = first4_scores + scores
     colors = ['gray']*4 + ['steelblue']*2
-
-    wrapped_labels = [
-        "\n".join(textwrap.wrap(lbl, width=12))
-        for lbl in x_labels
-    ]
+    wrapped_labels = ["\n".join(textwrap.wrap(lbl, width=12)) for lbl in x_labels]
 
     plt.figure(figsize=(10, 6))
-    plt.bar(
-        wrapped_labels,
-        all_scores,
-        color=colors,
-        edgecolor='black'
-    )
+    plt.bar(wrapped_labels, all_scores, color=colors, edgecolor='black')
     plt.ylim(0, 1.1)
     plt.ylabel('Result Score (1=Win, 0.5=Draw, 0=Loss)')
     plt.title("Actual First 4 Matches vs. Model’s Next 2 Predictions")
     plt.xticks(rotation=45, ha='right')
-
     for i, h in enumerate(all_scores):
         plt.text(i, h + 0.02, f"{h:.1f}", ha='center')
-
     actual_patch = mpatches.Patch(color='gray', label='Actual Results')
     pred_patch   = mpatches.Patch(color='steelblue', label='Predicted Results')
     plt.legend(handles=[actual_patch, pred_patch])
-
     plt.tight_layout()
     plt.show()
 
