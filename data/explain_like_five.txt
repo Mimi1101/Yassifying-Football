@@ -1,0 +1,35 @@
+Barcelona:
+- Shots on Goal: 9
+- Shots off Goal: 8
+- Total Shots: 22
+- Blocked Shots: 5
+- Shots insidebox: 13
+- Shots outsidebox: 9
+- Fouls: 23
+- Corner Kicks: 8
+- Offsides: 2
+- Ball Possession: 59%
+- Yellow Cards: 4
+- Red Cards: 0
+- Goalkeeper Saves: 5
+- Total passes: 670
+- Passes accurate: 594
+- Passes %: 89%
+
+ Real Madrid :
+- Shots on Goal: 7
+- Shots off Goal: 3
+- Total Shots: 15
+- Blocked Shots: 5
+- Shots insidebox: 10
+- Shots outsidebox: 5
+- Fouls: 11
+- Corner Kicks: 7
+- Offsides: 7
+- Ball Possession: 41%
+- Yellow Cards: 3
+- Red Cards: 3
+- Goalkeeper Saves: 6
+- Total passes: 453
+- Passes accurate: 365
+- Passes %: 81%

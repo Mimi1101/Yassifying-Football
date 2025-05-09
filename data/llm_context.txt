@@ -1,0 +1,42 @@
+ Match Overview:
+Date: 2025-04-26
+Competition: Copa del Rey Final (2024 Season)
+Teams: Barcelona vs Real Madrid
+Final Score: Barcelona 3 - 2 Real Madrid
+Match Duration: 120 minutes (Overtime played)
+Result: Barcelona Win
+
+Team Stats:
+- Ball Possession: Barcelona 59% | Real Madrid 41%
+- Fouls: Barcelona 23 | Real Madrid 11
+- Goalkeeper Saves: Barcelona 5 | Real Madrid 6
+- Offsides: Barcelona 2 | Real Madrid 7
+- Red Cards: Barcelona 0 | Real Madrid 3
+- Yellow Cards: Barcelona 4 | Real Madrid 3
+
+ Player Performances:
+
+ Barcelona
+- Wojciech Szczęsny (Goalkeeper): 2 goals conceded, 5 saves
+- Jules Koundé (Right-back Defender): 1 goal, 7 duels (4 won)
+- Iñigo Martínez (Center-back Defender): 1 key pass, 15 duels (6 won)
+- Gerard Martín (Left-back Defender): 9 duels (5 won), 1 yellow card
+- Frenkie de Jong (Central Midfielder): 1 key pass, 6 duels (2 won), 1 yellow card
+- Pedri (Attacking Midfielder): 1 goal, 3 key passes, 11 duels (5 won)
+- Fermín López (Central Midfielder): 13 duels (6 won), 1 yellow card
+- Dani Olmo (Attacking Midfielder): 3 key passes, 11 duels (5 won)
+- Raphinha (Right Winger): 5 key passes, 6 duels (2 won), 1 yellow card
+- Lamine Yamal (Right Winger): 2 assists, 2 key passes, 19 duels (6 won)
+- Ferran Torres (Striker): 1 goal, 3 key passes, 13 duels (8 won)
+
+Real Madrid
+- Thibaut Courtois (Goalkeeper): 3 goals conceded, 6 saves, 1 duel
+- Lucas Vázquez (Right-back Defender): 1 key pass, 4 duels (1 won), 1 red card
+- Antonio Rüdiger (Center-back Defender): 9 duels (6 won), 1 red card
+- Federico Valverde (Central Midfielder): 11 duels (5 won)
+- Aurélien Tchouaméni (Defensive Midfielder): 1 goal, 13 duels (9 won), 1 yellow card
+- Jude Bellingham (Attacking Midfielder): 3 key passes, 17 duels (13 won), 1 yellow card, 1 red card
+- Vinícius Júnior (Left Winger): 1 key pass, 15 duels (8 won)
+- Kylian Mbappé (Striker): 1 goal, 2 key passes, 6 duels (3 won)
+- Luka Modrić (Central Midfielder): 9 duels (5 won), 1 yellow card
+- Arda Güler (Attacking Midfielder): 1 assist, 13 duels (9 won)

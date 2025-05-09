@@ -1,0 +1,2114 @@
+[
+    {
+        "player_id": 730,
+        "name": "Thibaut Courtois",
+        "team": "Real Madrid",
+        "position": "G",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 5,
+            "assists": 0,
+            "saves": 3
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 20,
+            "key": null,
+            "accuracy": "11"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 757,
+        "name": "Lucas Vázquez",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": 52,
+        "rating": 0.0,
+        "captain": true,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 24,
+            "key": 1,
+            "accuracy": "20"
+        },
+        "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 2,
+            "won": 1
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": 1
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 1271,
+        "name": "Aurélien Tchouaméni",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": 64,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 1,
+            "on": 1
+        },
+        "passes": {
+            "total": 29,
+            "key": null,
+            "accuracy": "27"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 8,
+            "won": 4
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": 3
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 2285,
+        "name": "Antonio Rüdiger",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 1,
+            "on": 1
+        },
+        "passes": {
+            "total": 39,
+            "key": null,
+            "accuracy": "35"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 10,
+            "won": 4
+        },
+        "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": 4
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 653,
+        "name": "Ferland Mendy",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": 75,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 21,
+            "key": null,
+            "accuracy": "19"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 756,
+        "name": "Federico Valverde",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 1,
+            "on": null
+        },
+        "passes": {
+            "total": 42,
+            "key": null,
+            "accuracy": "32"
+        },
+        "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 3
+        },
+        "duels": {
+            "total": 3,
+            "won": 2
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 2207,
+        "name": "Eduardo Camavinga",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 45,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 1,
+            "on": null
+        },
+        "passes": {
+            "total": 12,
+            "key": null,
+            "accuracy": "12"
+        },
+        "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 12,
+            "won": 3
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": 5
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": 4
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 10009,
+        "name": "Rodrygo",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 4,
+            "on": 1
+        },
+        "passes": {
+            "total": 21,
+            "key": 4,
+            "accuracy": "19"
+        },
+        "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 2
+        },
+        "duels": {
+            "total": 10,
+            "won": 5
+        },
+        "dribbles": {
+            "attempts": 6,
+            "success": 3,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 129718,
+        "name": "Jude Bellingham",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 2,
+            "on": 1
+        },
+        "passes": {
+            "total": 31,
+            "key": 2,
+            "accuracy": "25"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 9,
+            "won": 7
+        },
+        "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 2,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 762,
+        "name": "Vinícius Júnior",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 76,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 19,
+            "key": 2,
+            "accuracy": "11"
+        },
+        "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 9,
+            "won": 3
+        },
+        "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": 1
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 278,
+        "name": "Kylian Mbappé",
+        "team": "Real Madrid",
+        "position": "F",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 2,
+            "on": 2
+        },
+        "passes": {
+            "total": 19,
+            "key": 1,
+            "accuracy": "15"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 15,
+            "won": 11
+        },
+        "dribbles": {
+            "attempts": 9,
+            "success": 8,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 3,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 748,
+        "name": "Dani Ceballos",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 45,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 51,
+            "key": null,
+            "accuracy": "48"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 7,
+            "won": 3
+        },
+        "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": 1
+        },
+        "fouls": {
+            "drawn": 3,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 341640,
+        "name": "Raúl Asencio",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": 38,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 1,
+            "on": null
+        },
+        "passes": {
+            "total": 20,
+            "key": null,
+            "accuracy": "19"
+        },
+        "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 2,
+            "won": 2
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 754,
+        "name": "Luka Modrić",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 26,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 34,
+            "key": 4,
+            "accuracy": "31"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 1,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 736,
+        "name": "Fran García",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": 15,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 18,
+            "key": 1,
+            "accuracy": "17"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 744,
+        "name": "Brahim Díaz",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": 14,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": "3"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 3,
+            "won": 1
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 396475,
+        "name": "Fran Gonzalez",
+        "team": "Real Madrid",
+        "position": "G",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 47400,
+        "name": "Andriy Lunin",
+        "team": "Real Madrid",
+        "position": "G",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 336988,
+        "name": "Lorenzo Aguado",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 505,
+        "name": "David Alaba",
+        "team": "Real Madrid",
+        "position": "D",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 291964,
+        "name": "Arda Güler",
+        "team": "Real Madrid",
+        "position": "M",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 377122,
+        "name": "Endrick",
+        "team": "Real Madrid",
+        "position": "F",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 851,
+        "name": "Wojciech Szczęsny",
+        "team": "Barcelona",
+        "position": "G",
+        "minutes": 56,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 1,
+            "assists": 0,
+            "saves": 2
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 13,
+            "key": null,
+            "accuracy": "12"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 1,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 1
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 1257,
+        "name": "Jules Koundé",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 39,
+            "key": 2,
+            "accuracy": "35"
+        },
+        "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 11,
+            "won": 3
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": 5
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 396623,
+        "name": "Pau Cubarsí",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 48,
+            "key": null,
+            "accuracy": "43"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 6,
+            "won": 3
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": 1
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 2670,
+        "name": "Iñigo Martínez",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": 28,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 35,
+            "key": null,
+            "accuracy": "30"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 2,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 161928,
+        "name": "Alejandro Balde",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 2,
+            "on": 2
+        },
+        "passes": {
+            "total": 41,
+            "key": 1,
+            "accuracy": "37"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 329728,
+        "name": "Marc Casadó",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+        },
+        "shots": {
+            "total": 1,
+            "on": null
+        },
+        "passes": {
+            "total": 52,
+            "key": 1,
+            "accuracy": "47"
+        },
+        "tackles": {
+            "total": 4,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 15,
+            "won": 6
+        },
+        "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": 2
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": 8
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 133609,
+        "name": "Pedri",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 56,
+            "key": 2,
+            "accuracy": "50"
+        },
+        "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 13,
+            "won": 8
+        },
+        "dribbles": {
+            "attempts": 4,
+            "success": 2,
+            "past": 3
+        },
+        "fouls": {
+            "drawn": 3,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 386828,
+        "name": "Lamine Yamal",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": 59,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": 2,
+            "on": 2
+        },
+        "passes": {
+            "total": 23,
+            "key": null,
+            "accuracy": "21"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 11,
+            "won": 8
+        },
+        "dribbles": {
+            "attempts": 6,
+            "success": 5,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 3,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 296667,
+        "name": "Gavi",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": 59,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 28,
+            "key": 1,
+            "accuracy": "27"
+        },
+        "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 5,
+            "won": 3
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": 1
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 1496,
+        "name": "Raphinha",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": 79,
+        "rating": 0.0,
+        "captain": true,
+        "substitute": false,
+        "goals": {
+            "total": 2,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+        },
+        "shots": {
+            "total": 4,
+            "on": 3
+        },
+        "passes": {
+            "total": 18,
+            "key": 4,
+            "accuracy": "15"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 4,
+            "won": 2
+        },
+        "dribbles": {
+            "attempts": 3,
+            "success": 2,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 521,
+        "name": "Robert Lewandowski",
+        "team": "Barcelona",
+        "position": "F",
+        "minutes": 90,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": false,
+        "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+        },
+        "shots": {
+            "total": 2,
+            "on": 1
+        },
+        "passes": {
+            "total": 29,
+            "key": 1,
+            "accuracy": "23"
+        },
+        "tackles": {
+            "total": 1,
+            "blocks": 1,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 9,
+            "won": 6
+        },
+        "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 3,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 101814,
+        "name": "Ronald Araújo",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": 62,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 22,
+            "key": null,
+            "accuracy": "20"
+        },
+        "tackles": {
+            "total": 2,
+            "blocks": 1,
+            "interceptions": 1
+        },
+        "duels": {
+            "total": 8,
+            "won": 2
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": 1
+        },
+        "cards": {
+            "yellow": 1,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 126,
+        "name": "Iñaki Peña",
+        "team": "Barcelona",
+        "position": "G",
+        "minutes": 31,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 1,
+            "assists": 0,
+            "saves": 3
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 14,
+            "key": null,
+            "accuracy": "5"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 1323,
+        "name": "Dani Olmo",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": 31,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 12,
+            "key": null,
+            "accuracy": "9"
+        },
+        "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": 6,
+            "won": 4
+        },
+        "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+        },
+        "fouls": {
+            "drawn": 1,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 931,
+        "name": "Ferran Torres",
+        "team": "Barcelona",
+        "position": "F",
+        "minutes": 11,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": 0,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": 3,
+            "key": null,
+            "accuracy": "2"
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 336653,
+        "name": "Ander Astralaga",
+        "team": "Barcelona",
+        "position": "G",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 619,
+        "name": "Eric García",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 386859,
+        "name": "Hector Fort",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 181701,
+        "name": "Gerard Martín",
+        "team": "Barcelona",
+        "position": "D",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 340626,
+        "name": "Fermín López",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 538,
+        "name": "Frenkie de Jong",
+        "team": "Barcelona",
+        "position": "M",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    },
+    {
+        "player_id": 263530,
+        "name": "Pau Víctor",
+        "team": "Barcelona",
+        "position": "F",
+        "minutes": null,
+        "rating": 0.0,
+        "captain": false,
+        "substitute": true,
+        "goals": {
+            "total": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+        },
+        "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+        },
+        "duels": {
+            "total": null,
+            "won": null
+        },
+        "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+        },
+        "fouls": {
+            "drawn": null,
+            "committed": null
+        },
+        "cards": {
+            "yellow": 0,
+            "red": 0
+        },
+        "saves": {}
+    }
+]

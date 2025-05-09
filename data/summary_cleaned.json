@@ -1,0 +1,888 @@
+{
+  "fixture_id": 1367758,
+  "date": "2025-04-26T20:00:00+00:00",
+  "league": "Copa del Rey",
+  "season": 2024,
+  "opponent": "Real Madrid",
+  "home_or_away": "Home",
+  "barca_goals": 3,
+  "opponent_goals": 2,
+  "result": "Win",
+  "team_stats": {
+    "barcelona": {
+      "team_id": 529,
+      "team_name": "Barcelona",
+      "stats": {
+        "Shots on Goal": 9,
+        "Total Shots": 22,
+        "Fouls": 23,
+        "Offsides": 2,
+        "Ball Possession": "59%",
+        "Yellow Cards": 4,
+        "Goalkeeper Saves": 5,
+        "Passes %": "89%"
+      }
+    },
+    "opponent": {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "stats": {
+        "Shots on Goal": 7,
+        "Total Shots": 15,
+        "Fouls": 11,
+        "Offsides": 7,
+        "Ball Possession": "41%",
+        "Yellow Cards": 3,
+        "Red Cards": 1,
+        "Goalkeeper Saves": 6,
+        "Passes %": "81%"
+      }
+    }
+  },
+  "players": {
+    "Barcelona": [
+      {
+        "player_id": 851,
+        "name": "Wojciech Szczęsny",
+        "position": "G",
+        "minutes": 120,
+        "goals": {
+          "conceded": 2,
+          "saves": 5
+        },
+        "passes": {
+          "total": 34,
+          "accuracy": "31"
+        }
+      },
+      {
+        "player_id": 1257,
+        "name": "Jules Koundé",
+        "position": "D",
+        "minutes": 120,
+        "goals": {
+          "total": 1
+        },
+        "shots": {
+          "total": 3,
+          "on": 2
+        },
+        "passes": {
+          "total": 66,
+          "accuracy": "61"
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 1,
+          "interceptions": 6
+        },
+        "duels": {
+          "total": 7,
+          "won": 4
+        },
+        "dribbles": {
+          "past": 1
+        },
+        "fouls": {
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 396623,
+        "name": "Pau Cubarsí",
+        "position": "D",
+        "minutes": 120,
+        "passes": {
+          "total": 85,
+          "accuracy": "77"
+        },
+        "tackles": {
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 4,
+          "won": 1
+        },
+        "fouls": {
+          "committed": 2
+        }
+      },
+      {
+        "player_id": 2670,
+        "name": "Iñigo Martínez",
+        "position": "D",
+        "minutes": 120,
+        "passes": {
+          "total": 89,
+          "key": 1,
+          "accuracy": "80"
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 2,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 15,
+          "won": 6
+        },
+        "dribbles": {
+          "past": 4
+        },
+        "fouls": {
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 181701,
+        "name": "Gerard Martín",
+        "position": "D",
+        "minutes": 85,
+        "passes": {
+          "total": 56,
+          "accuracy": "48"
+        },
+        "tackles": {
+          "total": 4,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 9,
+          "won": 5
+        },
+        "dribbles": {
+          "attempts": 1,
+          "past": 1
+        },
+        "fouls": {
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 538,
+        "name": "Frenkie de Jong",
+        "position": "M",
+        "minutes": 85,
+        "captain": true,
+        "passes": {
+          "total": 68,
+          "key": 1,
+          "accuracy": "66"
+        },
+        "tackles": {
+          "total": 2,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 6,
+          "won": 2
+        },
+        "fouls": {
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 133609,
+        "name": "Pedri",
+        "position": "M",
+        "minutes": 98,
+        "goals": {
+          "total": 1
+        },
+        "shots": {
+          "total": 2,
+          "on": 1
+        },
+        "passes": {
+          "total": 87,
+          "key": 3,
+          "accuracy": "75"
+        },
+        "tackles": {
+          "total": 3,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 11,
+          "won": 5
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1,
+          "past": 3
+        },
+        "fouls": {
+          "drawn": 1
+        }
+      },
+      {
+        "player_id": 386828,
+        "name": "Lamine Yamal",
+        "position": "M",
+        "minutes": 120,
+        "goals": {
+          "assists": 2
+        },
+        "assists": 2,
+        "shots": {
+          "total": 3,
+          "on": 2
+        },
+        "passes": {
+          "total": 43,
+          "key": 2,
+          "accuracy": "37"
+        },
+        "tackles": {
+          "total": 1,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 19,
+          "won": 6
+        },
+        "dribbles": {
+          "attempts": 8,
+          "success": 3,
+          "past": 2
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 3
+        }
+      },
+      {
+        "player_id": 1323,
+        "name": "Dani Olmo",
+        "position": "M",
+        "minutes": 65,
+        "passes": {
+          "total": 15,
+          "key": 3,
+          "accuracy": "11"
+        },
+        "tackles": {
+          "total": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 11,
+          "won": 5
+        },
+        "dribbles": {
+          "attempts": 2
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 2
+        }
+      },
+      {
+        "player_id": 1496,
+        "name": "Raphinha",
+        "position": "M",
+        "minutes": 120,
+        "shots": {
+          "total": 5,
+          "on": 3
+        },
+        "passes": {
+          "total": 39,
+          "key": 5,
+          "accuracy": "31"
+        },
+        "tackles": {
+          "blocks": 1
+        },
+        "duels": {
+          "total": 6,
+          "won": 2
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1,
+          "past": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 931,
+        "name": "Ferran Torres",
+        "position": "F",
+        "minutes": 115,
+        "goals": {
+          "total": 1
+        },
+        "shots": {
+          "total": 2,
+          "on": 1
+        },
+        "passes": {
+          "total": 29,
+          "key": 3,
+          "accuracy": "23"
+        },
+        "tackles": {
+          "total": 1
+        },
+        "duels": {
+          "total": 13,
+          "won": 8
+        },
+        "dribbles": {
+          "attempts": 5,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 340626,
+        "name": "Fermín López",
+        "position": "M",
+        "minutes": 55,
+        "substitute": true,
+        "shots": {
+          "total": 1
+        },
+        "passes": {
+          "total": 21,
+          "accuracy": "19"
+        },
+        "tackles": {
+          "total": 4
+        },
+        "duels": {
+          "total": 13,
+          "won": 6
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2,
+          "past": 3
+        },
+        "fouls": {
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 101814,
+        "name": "Ronald Araújo",
+        "position": "D",
+        "minutes": 35,
+        "substitute": true,
+        "passes": {
+          "total": 12,
+          "accuracy": "11"
+        },
+        "tackles": {
+          "total": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 2,
+          "won": 2
+        }
+      },
+      {
+        "player_id": 296667,
+        "name": "Gavi",
+        "position": "M",
+        "minutes": 35,
+        "substitute": true,
+        "passes": {
+          "total": 17,
+          "accuracy": "15"
+        },
+        "tackles": {
+          "total": 1,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 6,
+          "won": 3
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 619,
+        "name": "Eric García",
+        "position": "D",
+        "minutes": 22,
+        "substitute": true,
+        "shots": {
+          "total": 1
+        },
+        "passes": {
+          "total": 9,
+          "accuracy": "9"
+        },
+        "tackles": {
+          "total": 1
+        },
+        "duels": {
+          "total": 5,
+          "won": 3
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        }
+      },
+      {
+        "player_id": 263530,
+        "name": "Pau Víctor",
+        "position": "F",
+        "minutes": 8,
+        "substitute": true,
+        "tackles": {
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 2
+        },
+        "fouls": {
+          "committed": 1
+        }
+      }
+     
+      
+
+    ],
+    "Real Madrid": [
+      {
+        "player_id": 730,
+        "name": "Thibaut Courtois",
+        "position": "G",
+        "minutes": 120,
+        "goals": {
+          "conceded": 3,
+          "saves": 6
+        },
+        "passes": {
+          "total": 33,
+          "accuracy": "18"
+        },
+        "duels": {
+          "total": 1
+        }
+      
+      },
+      {
+        "player_id": 757,
+        "name": "Lucas Vázquez",
+        "position": "D",
+        "minutes": 55,
+        "captain": true,
+        "passes": {
+          "total": 26,
+          "key": 1,
+          "accuracy": "21"
+        },
+        "tackles": {
+          "total": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 4,
+          "won": 1
+        },
+        "fouls": {
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 341640,
+        "name": "Raúl Asencio",
+        "position": "D",
+        "minutes": 120,
+        "passes": {
+          "total": 41,
+          "accuracy": "35"
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 1
+        },
+        "duels": {
+          "total": 6,
+          "won": 2
+        },
+        "dribbles": {
+          "attempts": 1,
+          "past": 1
+        },
+        "fouls": {
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 2285,
+        "name": "Antonio Rüdiger",
+        "position": "D",
+        "minutes": 111,
+        "passes": {
+          "total": 35,
+          "accuracy": "32"
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 2,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 9,
+          "won": 6
+        },
+        "dribbles": {
+          "past": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "red": 1
+        }
+      },
+      {
+        "player_id": 653,
+        "name": "Ferland Mendy",
+        "position": "D",
+        "minutes": 11,
+        "passes": {
+          "total": 3,
+          "accuracy": "3"
+        }
+      },
+      {
+        "player_id": 756,
+        "name": "Federico Valverde",
+        "position": "M",
+        "minutes": 120,
+        "passes": {
+          "total": 51,
+          "accuracy": "43"
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 11,
+          "won": 5
+        },
+        "dribbles": {
+          "attempts": 2,
+          "past": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        }
+      },
+      {
+        "player_id": 1271,
+        "name": "Aurélien Tchouaméni",
+        "position": "M",
+        "minutes": 120,
+        "goals": {
+          "total": 1
+        },
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "passes": {
+          "total": 34,
+          "accuracy": "29"
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 13,
+          "won": 9
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2,
+          "past": 3
+        },
+        "fouls": {
+          "drawn": 2
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 10009,
+        "name": "Rodrygo",
+        "position": "M",
+        "minutes": 45,
+        "passes": {
+          "total": 8,
+          "accuracy": "8"
+        },
+        "tackles": {
+          "total": 1,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 7,
+          "won": 3
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1
+        }
+      },
+      {
+        "player_id": 129718,
+        "name": "Jude Bellingham",
+        "position": "M",
+        "minutes": 120,
+        "passes": {
+          "total": 46,
+          "key": 3,
+          "accuracy": "41"
+        },
+        "tackles": {
+          "total": 3,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 17,
+          "won": 13
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 5,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 748,
+        "name": "Dani Ceballos",
+        "position": "M",
+        "minutes": 55,
+        "passes": {
+          "total": 21,
+          "accuracy": "16"
+        },
+        "tackles": {
+          "total": 1
+        },
+        "duels": {
+          "total": 6,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 2
+        }
+      },
+      {
+        "player_id": 762,
+        "name": "Vinícius Júnior",
+        "position": "F",
+        "minutes": 89,
+        "shots": {
+          "total": 6,
+          "on": 4
+        },
+        "passes": {
+          "total": 15,
+          "key": 1,
+          "accuracy": "8"
+        },
+        "tackles": {
+          "total": 1
+        },
+        "duels": {
+          "total": 15,
+          "won": 8
+        },
+        "dribbles": {
+          "attempts": 8,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 3
+        }
+      },
+      {
+        "player_id": 736,
+        "name": "Fran García",
+        "position": "D",
+        "minutes": 109,
+        "substitute": true,
+        "passes": {
+          "total": 40,
+          "accuracy": "31"
+        },
+        "tackles": {
+          "total": 2
+        },
+        "duels": {
+          "total": 6,
+          "won": 3
+        },
+        "dribbles": {
+          "past": 3
+        }
+      },
+      {
+        "player_id": 278,
+        "name": "Kylian Mbappé",
+        "position": "F",
+        "minutes": 75,
+        "substitute": true,
+        "goals": {
+          "total": 1
+        },
+        "shots": {
+          "total": 2,
+          "on": 2
+        },
+        "passes": {
+          "total": 23,
+          "key": 2,
+          "accuracy": "18"
+        },
+        "duels": {
+          "total": 6,
+          "won": 3
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 1
+        }
+      },
+      {
+        "player_id": 754,
+        "name": "Luka Modrić",
+        "position": "M",
+        "minutes": 65,
+        "substitute": true,
+        "passes": {
+          "total": 36,
+          "accuracy": "32"
+        },
+        "tackles": {
+          "total": 2
+        },
+        "duels": {
+          "total": 9,
+          "won": 5
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2,
+          "past": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 1
+        }
+      },
+      {
+        "player_id": 291964,
+        "name": "Arda Güler",
+        "position": "M",
+        "minutes": 65,
+        "substitute": true,
+        "goals": {
+          "assists": 1
+        },
+        "assists": 1,
+        "passes": {
+          "total": 25,
+          "key": 3,
+          "accuracy": "17"
+        },
+        "tackles": {
+          "total": 3,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 13,
+          "won": 9
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 1,
+          "past": 1
+        },
+        "fouls": {
+          "drawn": 4
+        }
+      },
+      {
+        "player_id": 744,
+        "name": "Brahim Díaz",
+        "position": "M",
+        "minutes": 31,
+        "substitute": true,
+        "shots": {
+          "total": 1
+        },
+        "passes": {
+          "total": 15,
+          "accuracy": "12"
+        },
+        "tackles": {
+          "total": 1
+        },
+        "duels": {
+          "total": 7,
+          "won": 1
+        } 
+      }
+    ]
+  }
+}

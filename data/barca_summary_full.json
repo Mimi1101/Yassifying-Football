@@ -1,0 +1,2227 @@
+{
+    "fixture_id": 1371732,
+    "date": "2025-04-30T19:00:00+00:00",
+    "league": "UEFA Champions League",
+    "season": 2024,
+    "opponent": "Inter",
+    "home_or_away": "Home",
+    "barca_goals": 3,
+    "opponent_goals": 3,
+    "result": "Draw",
+    "team_stats": {
+        "barcelona": {
+            "team_id": 529,
+            "team_name": "Barcelona",
+            "stats": {
+                "Shots on Goal": 9,
+                "Shots off Goal": 5,
+                "Total Shots": 19,
+                "Blocked Shots": 5,
+                "Shots insidebox": 11,
+                "Shots outsidebox": 8,
+                "Fouls": 10,
+                "Corner Kicks": 7,
+                "Offsides": 0,
+                "Ball Possession": "72%",
+                "Yellow Cards": 1,
+                "Red Cards": null,
+                "Goalkeeper Saves": 0,
+                "Total passes": 683,
+                "Passes accurate": 621,
+                "Passes %": "91%",
+                "expected_goals": "1.38",
+                "goals_prevented": 0
+            }
+        },
+        "opponent": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "stats": {
+                "Shots on Goal": 3,
+                "Shots off Goal": 3,
+                "Total Shots": 7,
+                "Blocked Shots": 1,
+                "Shots insidebox": 5,
+                "Shots outsidebox": 2,
+                "Fouls": 11,
+                "Corner Kicks": 2,
+                "Offsides": 5,
+                "Ball Possession": "28%",
+                "Yellow Cards": 1,
+                "Red Cards": null,
+                "Goalkeeper Saves": 7,
+                "Total passes": 271,
+                "Passes accurate": 204,
+                "Passes %": "75%",
+                "expected_goals": "0.91",
+                "goals_prevented": 0
+            }
+        }
+    },
+    "players": {
+        "Barcelona": [
+            {
+                "player_id": 851,
+                "name": "Wojciech Szczęsny",
+                "position": "G",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 3,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 28,
+                    "key": null,
+                    "accuracy": "23"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 1257,
+                "name": "Jules Koundé",
+                "position": "D",
+                "minutes": 42,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 35,
+                    "key": null,
+                    "accuracy": "34"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 396623,
+                "name": "Pau Cubarsí",
+                "position": "D",
+                "minutes": 83,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 61,
+                    "key": 1,
+                    "accuracy": "59"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 6,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 2
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 1,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 2670,
+                "name": "Iñigo Martínez",
+                "position": "D",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 79,
+                    "key": null,
+                    "accuracy": "77"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 6,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 181701,
+                "name": "Gerard Martín",
+                "position": "D",
+                "minutes": 45,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 31,
+                    "key": null,
+                    "accuracy": "22"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 538,
+                "name": "Frenkie de Jong",
+                "position": "M",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": true,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 103,
+                    "key": 3,
+                    "accuracy": "100"
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 133609,
+                "name": "Pedri",
+                "position": "M",
+                "minutes": 83,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "passes": {
+                    "total": 92,
+                    "key": 2,
+                    "accuracy": "87"
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": null,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 8,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 386828,
+                "name": "Lamine Yamal",
+                "position": "M",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 4,
+                    "on": 2
+                },
+                "passes": {
+                    "total": 61,
+                    "key": 2,
+                    "accuracy": "46"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 15,
+                    "won": 8
+                },
+                "dribbles": {
+                    "attempts": 11,
+                    "success": 6,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 1323,
+                "name": "Dani Olmo",
+                "position": "M",
+                "minutes": 68,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 2,
+                    "on": 2
+                },
+                "passes": {
+                    "total": 26,
+                    "key": 2,
+                    "accuracy": "23"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 10,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 1,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 1496,
+                "name": "Raphinha",
+                "position": "M",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "assists": 1,
+                "shots": {
+                    "total": 3,
+                    "on": 3
+                },
+                "passes": {
+                    "total": 39,
+                    "key": 2,
+                    "accuracy": "32"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 931,
+                "name": "Ferran Torres",
+                "position": "F",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "passes": {
+                    "total": 15,
+                    "key": 1,
+                    "accuracy": "13"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 5,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 619,
+                "name": "Eric García",
+                "position": "D",
+                "minutes": 48,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 41,
+                    "key": null,
+                    "accuracy": "37"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 101814,
+                "name": "Ronald Araújo",
+                "position": "D",
+                "minutes": 45,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 33,
+                    "key": null,
+                    "accuracy": "31"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 340626,
+                "name": "Fermín López",
+                "position": "M",
+                "minutes": 22,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "passes": {
+                    "total": 10,
+                    "key": 1,
+                    "accuracy": "9"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 2282,
+                "name": "Andreas Christensen",
+                "position": "D",
+                "minutes": 10,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 18,
+                    "key": null,
+                    "accuracy": "17"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 296667,
+                "name": "Gavi",
+                "position": "M",
+                "minutes": 10,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 11,
+                    "key": null,
+                    "accuracy": "11"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 126,
+                "name": "Iñaki Peña",
+                "position": "G",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 336653,
+                "name": "Ander Astralaga",
+                "position": "G",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 386859,
+                "name": "Hector Fort",
+                "position": "D",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 285909,
+                "name": "Pablo Torre",
+                "position": "M",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 135775,
+                "name": "Ansu Fati",
+                "position": "F",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 263530,
+                "name": "Pau Víctor",
+                "position": "F",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            }
+        ],
+        "Inter": [
+            {
+                "player_id": 2802,
+                "name": "Yann Sommer",
+                "position": "G",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 3,
+                    "assists": 0,
+                    "saves": 7
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 28,
+                    "key": null,
+                    "accuracy": "25"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 24953,
+                "name": "Yann Bisseck",
+                "position": "D",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 17,
+                    "key": null,
+                    "accuracy": "15"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 1836,
+                "name": "Francesco Acerbi",
+                "position": "D",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "assists": 1,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 12,
+                    "key": 1,
+                    "accuracy": "9"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 31009,
+                "name": "Alessandro Bastoni",
+                "position": "D",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 39,
+                    "key": null,
+                    "accuracy": "32"
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 5
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 2
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 226,
+                "name": "Denzel Dumfries",
+                "position": "M",
+                "minutes": 81,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "assists": 1,
+                "shots": {
+                    "total": 2,
+                    "on": 2
+                },
+                "passes": {
+                    "total": 14,
+                    "key": 1,
+                    "accuracy": "6"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 12,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 30558,
+                "name": "Nicolò Barella",
+                "position": "M",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "passes": {
+                    "total": 32,
+                    "key": null,
+                    "accuracy": "21"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 12,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 5,
+                    "success": 4,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 1640,
+                "name": "Hakan Çalhanoğlu",
+                "position": "M",
+                "minutes": 71,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "assists": 1,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 25,
+                    "key": 1,
+                    "accuracy": "17"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 3,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 1,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 1457,
+                "name": "Henrikh Mkhitaryan",
+                "position": "M",
+                "minutes": 90,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "passes": {
+                    "total": 30,
+                    "key": 1,
+                    "accuracy": "25"
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": 2
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 31010,
+                "name": "Federico Dimarco",
+                "position": "M",
+                "minutes": 56,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "passes": {
+                    "total": 19,
+                    "key": 1,
+                    "accuracy": "15"
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 6,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 2
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 21509,
+                "name": "Marcus Thuram",
+                "position": "F",
+                "minutes": 81,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": false,
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "passes": {
+                    "total": 16,
+                    "key": null,
+                    "accuracy": "13"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 9,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 2
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 217,
+                "name": "Lautaro Martínez",
+                "position": "F",
+                "minutes": 45,
+                "rating": 0.0,
+                "captain": true,
+                "substitute": false,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 8,
+                    "key": null,
+                    "accuracy": "6"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 42315,
+                "name": "Mehdi Taremi",
+                "position": "F",
+                "minutes": 45,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 15,
+                    "key": null,
+                    "accuracy": "12"
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 6,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 10238,
+                "name": "Carlos Augusto",
+                "position": "D",
+                "minutes": 34,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 6,
+                    "key": null,
+                    "accuracy": "5"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 5,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": 1
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 31173,
+                "name": "Davide Frattesi",
+                "position": "M",
+                "minutes": 19,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 6,
+                    "key": null,
+                    "accuracy": "3"
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 329,
+                "name": "Piotr Zieliński",
+                "position": "M",
+                "minutes": 9,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 1,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 887,
+                "name": "Matteo Darmian",
+                "position": "D",
+                "minutes": 9,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "assists": 0,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": 3,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 91488,
+                "name": "Raffaele Di Gennaro",
+                "position": "G",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 46988,
+                "name": "Josep Martínez",
+                "position": "G",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 194,
+                "name": "Stefan de Vrij",
+                "position": "D",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 470581,
+                "name": "Gabriele Re Cecconi",
+                "position": "D",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 275776,
+                "name": "Kristjan Asllani",
+                "position": "M",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 203474,
+                "name": "Nicola Zalewski",
+                "position": "M",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            },
+            {
+                "player_id": 18830,
+                "name": "Marko Arnautović",
+                "position": "F",
+                "minutes": null,
+                "rating": 0.0,
+                "captain": false,
+                "substitute": true,
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "assists": null,
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "red": 0
+                },
+                "saves": {}
+            }
+        ]
+    }
+}
